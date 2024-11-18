@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link to my github.
       url: https://github.com/LeenaTD
-      icon: github
+      icon: fas fa-palette
     - title: Link to courses repo github.
       url: https://github.com/dbwebb-se/design-v3
-      icon: leaf
+      icon: fab fa-github
 ---

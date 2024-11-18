@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  font-size: 100%;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  line-height: normal;
+  font-size: 1.2em;
+  letter-spacing: normal;
+}
+
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+
+
+.main {
+  width: 100%;
+  max-width: 64rem;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: #dff2eb;
+}
