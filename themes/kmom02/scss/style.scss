@@ -19,6 +19,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'blockquotes';
 @import 'code';
 
+@import 'technology';
+@import 'tables';
+
+
 body {
   background-color: $background-color;
 }

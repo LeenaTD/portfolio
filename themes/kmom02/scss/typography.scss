@@ -2,3 +2,8 @@ body {
   line-height: 1.4;
   font-family: 'Roboto Flex', sans-serif;
 }
+
+p {
+  font-size: 1.4em;
+  margin: 1.96rem; //line-height*font-size
+}

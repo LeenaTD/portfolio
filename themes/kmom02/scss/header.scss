@@ -1,7 +1,7 @@
 .header {
-  display: flex;
+  grid-column: first / end;
+  grid-row: row1-start / row2-start;
   background-color: #7ab2d3;
-  flex-direction: row;
   padding: 2 rem;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +12,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 

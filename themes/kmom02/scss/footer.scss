@@ -1,13 +1,28 @@
 .footer {
-  display: flex;
-  flex-direction: row;
-  padding: 2rem;
+  grid-column: first / end;
+  grid-row: row3-start / row-end;
+  display: grid;
+  grid-template-columns: [first] 20% [second] auto [third] 20% [end];
+  grid-template-rows: [row1-start] auto [row-end];
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
   background-color: #2a3952;
   color: #fff;
+  bottom: 0;
+}
 
-  .social a {
+.footer-text {
+  grid-column: first / second;
+  grid-row: row1-start / row-end;
+}
+
+.social {
+  grid-column: third / end;
+  grid-row: row1-start / row-end;
+  justify-self: end;
+
+  a {
     text-decoration: none;
     font-size: 3rem;
     color: #fff;
