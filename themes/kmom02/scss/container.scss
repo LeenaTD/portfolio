@@ -1,7 +1,10 @@
+@use 'variables' as *;
+
 html,
 body {
   height: 100%;
   //font-size: 100%;
+  background-color: $body-background-color;
 }
 
 
@@ -14,6 +17,7 @@ body {
 .main {
   grid-column: second / third;
   grid-row: row2-start / row3-start;
-  background-color: #dff2eb;
+  //background-color: #dff2eb;
+  background-color: $main-background-color;
 }
 

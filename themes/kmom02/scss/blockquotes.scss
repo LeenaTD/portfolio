@@ -12,6 +12,7 @@ blockquote {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  filter: drop-shadow(16px 16px 16px rgb(116, 93, 51));
 }
 
 .daffodil {
@@ -19,4 +20,31 @@ blockquote {
   border-radius: 50%;
   width: 20%;
   height: 20%;
+}
+
+.ica {
+  max-width: 100%;
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.power {
+  max-width: 100%;
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aftonbladet {
+  max-width: 100%;
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

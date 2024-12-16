@@ -1,10 +1,15 @@
+@use 'variables' as *;
+
+
 .header {
   grid-column: first / end;
   grid-row: row1-start / row2-start;
-  background-color: #7ab2d3;
+  //background-color: #7ab2d3;
+  background-color: $header-background-color;
   padding: 2 rem;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .site-header {
@@ -18,4 +23,5 @@
 
 .nav a {
   font-size: 3rem;
+  color: $main-font-color; 
 }

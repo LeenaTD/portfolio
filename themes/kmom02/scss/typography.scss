@@ -1,6 +1,10 @@
+@use 'variables' as *;
+
 body {
   line-height: 1.4;
-  font-family: 'Roboto Flex', sans-serif;
+  //font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Mali';
+  color: $main-font-color;
 }
 
 p {

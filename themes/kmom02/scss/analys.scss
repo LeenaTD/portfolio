@@ -1,0 +1,38 @@
+@use 'variables' as *;
+
+.rapporter-page {
+  display: grid;
+  gap: 1.96rem;
+  grid-template-columns: [first] auto [end];
+  grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row-end];
+  margin-bottom: 1.96rem;
+  justify-content: center;
+}
+
+.rapporter-page h1 {
+  justify-self: center;
+}
+
+.partbox {
+  border: 1px solid rgb(56, 55, 55);
+  padding: 1.96rem;
+  
+  a {
+    color: $main-font-color;
+  }
+}
+
+.partbox:hover {
+  box-shadow: 15px 15px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+// page part eg. colors, load, principles.
+.analys {
+  padding: 1.96rem;
+
+  a {
+    color: $main-font-color;
+  }
+}
