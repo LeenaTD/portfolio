@@ -19,6 +19,8 @@
 
 @use 'analys';
 
+@use 'gallery';
+
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';

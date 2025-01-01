@@ -327,6 +327,9 @@ html,
 body {
   height: 100%;
   background-color: #ffe4c4;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -480,6 +483,7 @@ pre code {
     margin-bottom: 1.96rem;
     background-color: rgb(233, 220, 106);
     justify-content: center;
+    width: 100%;
   }
   .landing-page h1 {
     justify-self: center;
@@ -501,6 +505,7 @@ pre code {
     margin-bottom: 1.96rem;
     grid-template-columns: [first] 30% [second] auto [third] 30% [end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row4-start] auto [row5-start] auto [row-end];
+    width: 100%;
   }
   .landing-page h1 {
     grid-column: span 3;
@@ -601,6 +606,25 @@ table td {
 }
 .analys a {
   color: #000;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.galleries-page {
+  display: grid;
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+  grid-template-columns: [first] 30% [second] auto [third] 30% [end];
+  grid-template-rows: [row1-start] auto [row2-start] auto [row-end];
+}
+.galleries-page .galleries-page h1 {
+  grid-column: span3;
+  justify-self: center;
 }
 
 .fa,

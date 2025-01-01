@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/daffodil.jpg
+Logo: /image/daffodil.jpg
 Tagline: My portfolio.
 Social:
     - title: Link to my github.

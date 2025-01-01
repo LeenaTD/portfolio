@@ -1,5 +1,6 @@
 @use 'variables' as *;
 
+
 @media screen and (max-width: 767px) {
   .landing-page {
     display: grid;
@@ -8,6 +9,9 @@
     margin-bottom: 1.96rem;
     background-color: rgb(233, 220, 106);
     justify-content: center;
+
+    width: 100%;
+
   }
 
   .landing-page h1 {
@@ -34,6 +38,7 @@
     margin-bottom: 1.96rem;
     grid-template-columns: [first] 30% [second] auto [third] 30% [end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row4-start] auto [row5-start] auto [row-end];
+    width: 100%;
   }
 
   .landing-page h1 {

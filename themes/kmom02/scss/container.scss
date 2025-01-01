@@ -3,15 +3,25 @@
 html,
 body {
   height: 100%;
-  //font-size: 100%;
   background-color: $body-background-color;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  
+
 }
+
+/* *, *::before, *::after {
+  box-sizing: inherit;
+} */
 
 
 body {
   display: grid;
   grid-template-columns: [first] 20% [second] auto [third] 20% [end];
-  grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row-end];
+  grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row4-start] auto [row-end];
+  // overflow-x: hidden !important;
 }
 
 .main {
@@ -19,5 +29,8 @@ body {
   grid-row: row2-start / row3-start;
   //background-color: #dff2eb;
   background-color: $main-background-color;
+  justify-content: center;
+  align-items: center;
+
 }
 

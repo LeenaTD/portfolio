@@ -1,0 +1,93 @@
+@use 'variables' as *;
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* .galleries-page {
+    max-width: 100%;
+    width: 100%;
+}  */
+
+/* .galleries-page img {
+    // width: 100%;
+    // height: auto;
+    object-fit: cover;
+} */
+
+
+@media screen and (min-width: 768px) {
+  body {
+    display: block;
+    margin: auto;
+    text-align: left;
+  }
+    
+
+
+  .galleries-page {
+    display: grid;
+    gap: 1.96rem;
+    margin-bottom: 1.96rem;
+    grid-template-columns: [first] auto [second] auto [third] auto [end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row-end];
+    justify-self: center;
+
+  }
+
+  .galleries-page h1 {
+    grid-column: span 3;
+    justify-self: center;
+  }
+
+
+  .embed-container {
+    grid-column: span 3;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .galleries-page {
+    display: grid;
+    gap: 1.96rem;
+    margin-bottom: 1.96rem;
+    grid-template-columns: [first] auto [end];
+    justify-self: center;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+
+  }
+
+  .galleries-page h1 {
+    justify-self: center;
+  }
+}
