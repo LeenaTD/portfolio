@@ -28,7 +28,7 @@ Metoden för denna analys kommer att vara att först använda oss av verktyget P
 Resultat
 -----------------------
 
-<iframe style="width:50%; height:500px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTVPbQ919u_4x9bCdJzqvmLycEIsucCUSr9fvLQBtf1w2T6bhjzPLODPPmiaHR8z-2gq2wMaxrHMe7-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="table" style="width:50%; height:500px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTVPbQ919u_4x9bCdJzqvmLycEIsucCUSr9fvLQBtf1w2T6bhjzPLODPPmiaHR8z-2gq2wMaxrHMe7-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 

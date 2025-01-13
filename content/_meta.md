@@ -1,6 +1,6 @@
 ---
 Logo: /image/daffodil.jpg
-Tagline: My portfolio.
+Tagline: My portfolio
 Social:
     - title: Link to my github.
       url: https://github.com/LeenaTD

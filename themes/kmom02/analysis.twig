@@ -8,11 +8,12 @@
             {{ content }}
 
             {% for part in meta.parts %}
-                    <div class="partbox {{ part.class }}">
-                        <a href="{{ base_url }}/analysis/{{ part.class }}">
-                            <h1>{{ part.name }}</h1>
-                    </div>
-                </a>
+                <div class="partbox {{ part.class }}">
+                    <a href="{{ base_url }}/analysis/{{ part.class }}">
+                        <h1>{{ part.name }}</h1>
+                    </a>
+                </div>
+                
             {% endfor %}
             
         </div>

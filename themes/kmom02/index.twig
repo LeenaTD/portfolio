@@ -4,7 +4,31 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
-        {{ content }}
+
+        <div class="index-page">
+            {{ content }}
+
+            <div class="profil-img">
+                <picture>
+                        <source media="(min-width: 768px)" srcset="{{ base_url }}/image/profil.jpg?w=260&h=260&crop-to-fit">
+                        <source media="(min-width: 376px)" srcset="{{ base_url }}/image/profil.jpg?w=250&h=250&crop-to-fit">
+                        <img src="{{ base_url }}/image/profil.jpg?w=150&h=150&crop-to-fit" alt="{{ image.alt }}">
+                </picture>
+
+            </div>
+
+            <div class="index-img">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="{{ base_url }}/image/dog.png?w=260&h=260&crop-to-fit">
+                    <source media="(min-width: 376px)" srcset="{{ base_url }}/image/dog.png?w=250&h=250&crop-to-fit">
+                    <img src="{{ base_url }}/image/dog.png?w=150&h=150&crop-to-fit" alt="{{ image.alt }}">
+                </picture>
+            </div>
+
+
+        </div>
+
+        
     </div>
     
     {% include 'incl/footer.twig' %}

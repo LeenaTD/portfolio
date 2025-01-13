@@ -1,0 +1,129 @@
+@use 'variables' as *;
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    justify-content: center;
+  }
+
+  .index-page {
+    display: grid;
+    gap: 1.96rem;
+    grid-template-columns: [first] auto [end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row4-start] auto [row5-start] auto [row-end];
+    justify-self: center;
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+        
+  }
+
+  .index-page h1 {
+    grid-row: row1-start / row2-start;
+    justify-self: center;
+  }
+
+  .index-page h2 {
+    padding: 20px;
+    justify-self: center;
+  }
+
+  .profil-img {
+    grid-row: row2-start / row3-start;
+    justify-self: center;
+  }
+
+  .index-page .p1 {
+    grid-row: row3-start / row4-start;
+    border: 1px solid #000;
+  }
+
+  .index-page .p2 {
+    grid-row: row4-start / row5-start;
+    border: 1px solid #000;
+  }
+
+  .index-img {
+    grid-row: row5-start / row-end;
+    justify-self: center;
+  }
+
+  .index-page .p3 {
+    border: 1px solid #000;
+  }
+
+  a {
+    color: $main-font-color;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .index-page {
+    display: grid;
+    gap: 1.96rem;
+    grid-template-columns: [first] 30% [second] auto [third] 30% [end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row-end];
+    width: 100%;
+    justify-self: center;
+
+  }
+
+
+  .index-page h1 {
+    grid-column: span 3;
+    justify-self: center;
+  }
+
+  .index-page h2 {
+    padding: 20px;
+    justify-self: center;
+  }
+
+
+  .profil-img {
+    grid-column: first / second;
+    grid-row: row2-start / row3-start;
+    justify-self: center;
+  }
+
+
+  .index-page .p1 {
+    grid-column: span 2;
+    grid-row: row2-start / row3-start;
+    border: 1px solid #000;
+  }
+
+
+  .index-page .p2 {
+    grid-column: span 2;
+    grid-row: row3-start / row-end;
+    border: 1px solid #000;
+  }
+
+
+  .index-img {
+    grid-column: third / end;
+    grid-row: row3-start / row-end;
+    justify-self: center;
+  }
+
+  .index-page .p3 {
+    grid-column: span 2;
+    border: 1px solid #000;
+  }
+
+  a {
+    color: $main-font-color;
+  }
+}
